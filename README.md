@@ -48,12 +48,47 @@ This project is a personal portfolio website designed to showcase personal infor
 
 ---
 
-## HTML Concepts Used
-- Semantic elements (`header`, `nav`, `main`, `section`, `footer`)
-- Forms with HTML5 validation attributes
-- Anchor tags for internal and external navigation
-- Image tags with alternative text
-- Accessibility-friendly structure
+HTML Concepts Learned
+HTML5 Structure: Use of <!DOCTYPE html>, <head>, and <body>
+Semantic Elements: header, nav, main, section, article, footer
+Forms and Validation: input, textarea, required, pattern, type="email"
+Links and Navigation: Anchor tags for internal and external navigation
+Images and Accessibility: img tag with alt attributes
+Lists: Ordered and unordered lists for skills and details
+
+---
+
+Personal-Portfolio-Website/
+│
+├── index.html
+├── README.md
+│
+├── images/
+│   ├── profile.jpg
+│   ├── project1.jpg
+│   ├── project2.jpg
+│   ├── project3.jpg
+│   │
+│   └── screenshots/
+│       ├── home-section.png
+│       ├── about-skills.png
+│       ├── projects.png
+│       ├── resume.png
+│       └── form-validation.png
+
+---
+
+## Explanation of How Technical Requirements Were Met
+| Requirement         | Implementation                                      |
+| ------------------- | --------------------------------------------------- |
+| HTML5 structure     | Proper use of `<!DOCTYPE html>`, `head`, and `body` |
+| Semantic tags       | Used `header`, `nav`, `main`, `section`, `footer`   |
+| Multiple sections   | Home, About, Projects, Resume, Contact              |
+| Internal navigation | Anchor links with section IDs                       |
+| Contact form        | HTML form with input fields                         |
+| Input validation    | `required`, `pattern`, `type="email"`               |
+| Images              | Included images with meaningful `alt` text          |
+| Code quality        | Clean, readable, and well-organized                 |
 
 ---
 
