@@ -58,21 +58,27 @@ Lists: Ordered and unordered lists for skills and details
 
 ---
 
-## Personal-Portfolio-Website/
+## Project Folder Structure
+
+```text
+Personal-Portfolio-Website/
 │
 ├── index.html
 ├── README.md
+│
 ├── images/
 │   ├── profile.jpg
 │   ├── project1.jpg
 │   ├── project2.jpg
 │   ├── project3.jpg
+│   │
 │   └── screenshots/
 │       ├── home-section.png
 │       ├── about-skills.png
 │       ├── projects.png
 │       ├── resume.png
 │       └── form-validation.png
+```
 
 ---
 
