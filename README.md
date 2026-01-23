@@ -1,85 +1,115 @@
 # Personal Portfolio Website
 
 ## Project Overview
-This project is a personal portfolio website designed to showcase personal information, skills, projects, resume details, and contact information. The objective is to create a clean, user-friendly, and well-structured web page using HTML5 and semantic elements.
+This project is a personal portfolio website designed to showcase personal information, skills, projects, resume details, and contact information. The objective is to create a clean, user-friendly, visually appealing, and well-structured web page using HTML5, semantic elements, and CSS.
 
 ---
 
 ## Project Objectives
-- Showcase personal and professional details
-- Demonstrate understanding of HTML5 and semantic tags
-- Implement internal navigation
-- Create a validated contact form
-- Organize content in a structured and accessible manner
+- Showcase personal and professional details  
+- Demonstrate understanding of HTML5, semantic tags, and CSS  
+- Implement internal navigation  
+- Create a validated contact form  
+- Apply CSS styling for layout, animations, and responsiveness  
+- Organize content in a structured and accessible manner  
 
 ---
 
 ## Technologies Used
-- HTML5
-- Font Awesome (for icons)
-- Browser-based form validation
+- HTML5  
+- CSS3  
+- Font Awesome (icons)  
+- Google Fonts  
+- Browser-based form validation  
 
 ---
 
 ## Setup Instructions
-1. Download or clone the repository
-2. Open the project folder
-3. Ensure all images are placed inside the `images/` folder
-4. Open `index.html` in any modern web browser
-5. No additional installation or configuration is required
+1. Download or clone the repository  
+2. Open the project folder  
+3. Ensure all images are placed inside the `images/` folder  
+4. Ensure `style.css` is present in the root directory  
+5. Open `index.html` in any modern web browser  
+6. No additional installation or configuration is required  
 
 ---
 
 ## Code Structure
-- `index.html` contains the complete website structure
-- `images/` folder stores profile and project images
-- `images/results/` folder stores the images of results of testing in browser
-- Semantic HTML tags improve readability and accessibility
-- Internal navigation links connect different sections
+- `index.html` contains the complete website structure  
+- `style.css` contains all styling, layout, animations, and responsive design  
+- `images/` folder stores profile and project images  
+- `screenshots/` folder stores screenshots of results and testing  
+- Semantic HTML tags improve readability and accessibility  
+- Internal navigation links connect different sections  
 
 ---
 
 ## Website Sections
-- **Home**: Profile image, social links, and CV download
-- **About**: About me and skills list
-- **Projects**: Project descriptions with images
-- **Resume**: Education, Experience and Certifications
-- **Contact**: Contact details and validated form
+- **Home:** Profile image, one-line introduction, social links, and CV download  
+- **About:** About me and skills list  
+- **Projects:** Project descriptions with images and hover effects  
+- **Resume:** Education, Experience, and Certifications displayed in styled boxes  
+- **Contact:** Contact details and validated contact form  
 
 ---
 
-## HTML Concepts Used
-- Semantic elements (`header`, `nav`, `main`, `section`, `footer`)
-- Forms with HTML5 validation attributes
-- Anchor tags for internal and external navigation
-- Image tags with alternative text
-- Accessibility-friendly structure
+## HTML Concepts Learned
+- HTML5 structure using `<!DOCTYPE html>`, `<head>`, and `<body>`  
+- Semantic elements: `header`, `nav`, `main`, `section`, `article`, `footer`  
+- Forms and validation using `input`, `textarea`, `required`, `pattern`, and `type="email"`  
+- Anchor tags for internal and external navigation  
+- Image accessibility using meaningful `alt` attributes  
+- Ordered and unordered lists for structured content  
 
 ---
 
-## Form Validation
-- `required` for mandatory fields
-- `type="email"` for email validation
-- `pattern` for phone number validation
+## CSS Concepts Used
+- External CSS file for separation of structure and styling  
+- Element, class, and ID selectors  
+- Flexbox for navigation and layout  
+- Card-based layouts using box model properties  
+- Hover effects using `:hover` pseudo-class  
+- CSS transitions and keyframe animations  
+- Custom fonts using Google Fonts  
+- Media queries for responsive design  
 
 ---
 
-## results
-- Home Section
-- About & Skills
-- Projects
-- Resume
-- Contact Form
-- Form Validation Evidence
-- w3 html validator 
+## Design Decisions
+- A dark theme with teal accent colors was chosen for a modern appearance  
+- Card-based layouts were used for projects and resume sections  
+- Minimalistic design was maintained for readability  
+- Hover and animation effects were added to improve user interaction  
 
 ---
 
-## Limitations
-- Email sending requires backend or third-party service
-- Styling is minimal as CSS is not included
+## Responsiveness Approach
+- Media queries adapt layout for mobile and tablet screens  
+- Navigation and content stack vertically on smaller devices  
+- Images resize automatically for different screen widths  
+- The website is usable across desktop, tablet, and mobile devices  
 
 ---
 
-## Conclusion
-This project demonstrates a strong understanding of HTML fundamentals, semantic structure, and form validation. It serves as a solid foundation for future enhancements using CSS and JavaScript.
+## Project Folder Structure
+
+```text
+Personal-Portfolio-Website/
+│
+├── index.html
+├── style.css
+├── README.md
+│
+├── images/
+│   ├── profile.jpg
+│   ├── project1.jpg
+│   ├── project2.jpg
+│   ├── project3.jpg
+│
+├── screenshots/
+│   ├── home-section.png
+│   ├── about-skills.png
+│   ├── projects.png
+│   ├── resume.png
+│   ├── contact.png
+│   └── form-validation.png
