@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/layout.css">
+    <link rel="stylesheet" href="css/animations.css">
 </head>
 
 <body>
@@ -27,7 +30,7 @@
 
 
     <!-- ================= MAIN ================= -->
-    <main>
+    <main class="layout">
 
         <!-- ================= HOME ================= -->
         <section id="home">
@@ -72,30 +75,32 @@
         </section>
 
         <!-- ================= PROJECTS ================= -->
-        <section id="projects">
+        <section id="projects" class="projects">
             <h2>My Projects</h2>
 
-            <article>
+            <article class="projects__card">
                 <h3>
                     Citizen Complaint Portal with Smart Waste Tracking.</h3>
                 <img src="images/project1.png" alt="smartcity image" width="500">
                 <p>Built a unified web portal for citizen complaints, real-time waste tracking, role-based access,
                     analytics, and an intuitive dashboard to improve municipal service efficiency.</p>
                 <button class="view project">view project <a href="https://github.com/SurajPatil2645" target="_blank"><i
-                            class="fab fa-github"></i></a></button>
+                            class="fab fa-github"></i></a>
+                </button>
             </article>
 
-            <article>
+            <article class="projects__card">
                 <h3>Badminton Court Booking System</h3>
                 <img src="images/project2.png" alt="courtbooking image" width="100px" height="350px">
                 <p>Developed a Java-based court booking system using JDBC and MySQL with secure user registration, court
                     availability, time-slot booking, cancellation, and admin management.</p>
                 <button class="view project">view project <a href="https://github.com/SurajPatil2645" target="_blank"><i
-                            class="fab fa-github"></i></a></button>
+                            class="fab fa-github"></i></a>
+                </button>
 
             </article>
 
-            <article>
+            <article class="projects__card">
                 <h3>Vulnerability Detection & Reporting System</h3>
                 <img src="images/project3.png" alt="Vulntracker image" width="500">
 
@@ -103,13 +108,14 @@
                     security advisories, enabling filtered analysis, Excel reports, and email alerts without relying on
                     delayed NVD data.</p>
                 <button class="view project">view project <a href="https://github.com/SurajPatil2645" target="_blank"><i
-                            class="fab fa-github"></i></a></button>
+                            class="fab fa-github"></i></a>
+                </button>
 
             </article>
         </section>
 
         <!-- ================= RESUME ================= -->
-        <section id="resume">
+        <section id="resume" class="resume">
             <h2>Resume</h2>
 
             <h3>Education <i class="fas fa-school"></i></a>
@@ -129,7 +135,7 @@
                     <br>The Developers Arena : Jan 2026 - Mar 2026
                 </li>
                 <li>Web Development Projects
-                    <br> Personal Portfolio Website
+                    <br> Professional Business Website : Feb 2026 - Feb 2026
                 </li>
             </ul>
 
@@ -147,7 +153,7 @@
         </section>
 
         <!-- ================= CONTACT ================= -->
-        <section id="contact">
+        <section id="contact" class="contact">
             <h2>Contact Me</h2>
 
             <p>
@@ -197,6 +203,7 @@
         <p>&copy; 2026 Suraj Patil. All Rights Reserved.</p>
     </footer>
     <script src="script.js"></script>
+    <script src="js/theme-switcher.js"></script>
 </body>
 
 </html>
